@@ -6,4 +6,4 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-This project is created by TUGIRIMANA INEZA Bonheur Cedrick
+This project is created by DUSHIMIYIMANA JD

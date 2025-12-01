@@ -63,8 +63,8 @@ const About = () => {
           <div className="bg-gradient-to-br from-primary/10 to-accent/10 border border-primary/20 rounded-lg p-4">
             <h3 className="text-sm font-semibold text-foreground mb-2">Education</h3>
             <div className="text-xs text-muted-foreground">
-              <p className="font-medium">Diploma in Software Development</p>
-              <p>Runda TSS School • 2024-2025</p>
+              <p className="font-medium">Bsc hons In Information Systems</p>
+              <p>University of Rwanda • 2021-2025</p>
             </div>
           </div>
         </div>

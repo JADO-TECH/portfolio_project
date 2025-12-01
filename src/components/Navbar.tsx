@@ -20,6 +20,7 @@ const Navbar = () => {
     { href: '#services', label: 'Services' },
     { href: '#portfolio', label: 'Portfolio' },
     { href: '#reviews', label: 'Reviews' },
+    { href: '#Blog', label: 'Blog' },
     { href: '#contact', label: 'Contact' }
   ];
 
@@ -38,7 +39,7 @@ const Navbar = () => {
     >
       <div className={`transition-all duration-500 ease-in-out ${
         isScrolled
-          ? 'max-w-lg mx-auto mt-4 bg-background/80 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl shadow-black/20' // Changed from max-w-md to max-w-lg
+          ? 'max-w-2xl mx-auto mt-4 bg-background/80 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl shadow-black/20' // Changed from max-w-md to max-w-lg
           : 'max-w-7xl mx-auto bg-background/95 backdrop-blur-md border-b border-border shadow-sm'
       }`}>
         <div className={`flex justify-between items-center transition-all duration-500 ${

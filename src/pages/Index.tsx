@@ -9,6 +9,7 @@ import Portfolio from '@/components/Portfolio';
 import Reviews from '@/components/Reviews';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
+import PortfolioBlog from '@/components/Blog';
 
 const Index = () => {
   return (
@@ -32,6 +33,9 @@ const Index = () => {
         </div>
         <div id="reviews">
           <Reviews />
+        </div>
+        <div id="Blog">
+          <PortfolioBlog />
         </div>
         <div id="contact">
           <Contact />

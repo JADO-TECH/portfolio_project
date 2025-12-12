@@ -1,0 +1,126 @@
+[debug] [2025-12-01T05:56:26.202Z] ----------------------------------------------------------------------
+[debug] [2025-12-01T05:56:26.204Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-12-01T05:56:26.205Z] CLI Version:   14.26.0
+[debug] [2025-12-01T05:56:26.205Z] Platform:      win32
+[debug] [2025-12-01T05:56:26.205Z] Node Version:  v24.11.1
+[debug] [2025-12-01T05:56:26.205Z] Time:          Sun Nov 30 2025 21:56:26 GMT-0800 (Pacific Standard Time)
+[debug] [2025-12-01T05:56:26.205Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-01T05:56:26.333Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-01T05:56:26.333Z] > authorizing via signed-in user (dushimiyimanajde@gmail.com)
+[debug] [2025-12-01T05:56:26.333Z] [iam] checking project jadopotf-969bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-12-01T05:56:26.334Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:26.334Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:26.334Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions [none]
+[debug] [2025-12-01T05:56:26.334Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions x-goog-quota-user=projects/jadopotf-969bf
+[debug] [2025-12-01T05:56:26.334Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-12-01T05:56:53.182Z] ----------------------------------------------------------------------
+[debug] [2025-12-01T05:56:53.184Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2025-12-01T05:56:53.184Z] CLI Version:   14.26.0
+[debug] [2025-12-01T05:56:53.184Z] Platform:      win32
+[debug] [2025-12-01T05:56:53.184Z] Node Version:  v24.11.1
+[debug] [2025-12-01T05:56:53.184Z] Time:          Sun Nov 30 2025 21:56:53 GMT-0800 (Pacific Standard Time)
+[debug] [2025-12-01T05:56:53.185Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-12-01T05:56:53.306Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-12-01T05:56:53.307Z] > authorizing via signed-in user (dushimiyimanajde@gmail.com)
+[debug] [2025-12-01T05:56:53.307Z] [iam] checking project jadopotf-969bf for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2025-12-01T05:56:53.307Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:53.308Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:53.308Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions [none]
+[debug] [2025-12-01T05:56:53.308Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions x-goog-quota-user=projects/jadopotf-969bf
+[debug] [2025-12-01T05:56:53.308Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-12-01T05:56:56.242Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions 200
+[debug] [2025-12-01T05:56:56.242Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/jadopotf-969bf:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2025-12-01T05:56:56.242Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:56.242Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:56.242Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/jadopotf-969bf [none]
+[debug] [2025-12-01T05:56:58.027Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/jadopotf-969bf 200
+[debug] [2025-12-01T05:56:58.027Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/jadopotf-969bf {"projectId":"jadopotf-969bf","projectNumber":"379734880562","displayName":"jadopotf","name":"projects/jadopotf-969bf","resources":{"hostingSite":"jadopotf-969bf"},"state":"ACTIVE","etag":"1_40a823f1-1d7e-4233-b82b-883dd4a79a30"}
+[info] 
+[info] === Deploying to 'jadopotf-969bf'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2025-12-01T05:56:58.033Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:58.033Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:56:58.033Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions [none]
+[debug] [2025-12-01T05:56:58.033Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions {"status":"CREATED","labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2025-12-01T05:57:00.852Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions 200
+[debug] [2025-12-01T05:57:00.852Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions {"name":"projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5","status":"CREATED","config":{},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[jadopotf-969bf]: beginning deploy... 
+[info] i  hosting[jadopotf-969bf]: found 9 files in dist 
+[debug] [2025-12-01T05:57:00.864Z] [hosting] uploading with 200 concurrency
+[debug] [2025-12-01T05:57:00.946Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:00.946Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:00.947Z] [hosting] hash cache [ZGlzdA] stored for 9 files
+[debug] [2025-12-01T05:57:00.947Z] [hosting][hash queue][FINAL] {"max":79,"min":2,"avg":23,"active":0,"complete":9,"success":9,"errored":0,"retried":0,"total":9,"elapsed":81}
+[debug] [2025-12-01T05:57:00.947Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5:populateFiles [none]
+[debug] [2025-12-01T05:57:00.947Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5:populateFiles {"files":{"/Screenshot 2025-06-01 145336.jpg":"a465a57b6ea8884b28a15d1094466de6b8d2c0e6fec635d2f036dcd11dab605e","/Personal-Image.png":"6120aaf0212cc4ce48a13cf04a9456de53ba75ac9451d3018a3c4d3eec222413","/index.html":"8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1","/assets/index-x7cPK4wK.css":"634c56f415b974196a72973990458e8c7a1a10b949fc868b8347e767967a85d9","/assets/Personal-Image-BtNv1nX3.png":"6120aaf0212cc4ce48a13cf04a9456de53ba75ac9451d3018a3c4d3eec222413","/assets/index-CBJr_kfT.js":"119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2","/assets/b2-CjCVBHZg.jpg":"32a08c2c33a335b29e5fc16f4e331301aaa517a9336c429fbd18bf03c395edd6","/assets/b4-CcqOl3of.jpg":"7460df3f124c597aa1601850deb0640c08ebe4da3be0b5d873ec47e05a49111f","/assets/b3-D5wBeOUb.jpg":"d8843da69ca080ebc99e8cc59c9548d541e0f991f3d01bb49c5fdc7209d59c04"}}
+[debug] [2025-12-01T05:57:01.736Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5:populateFiles 200
+[debug] [2025-12-01T05:57:01.736Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5:populateFiles {"uploadRequiredHashes":["119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2","8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files"}
+[debug] [2025-12-01T05:57:01.737Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:01.737Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:01.737Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:01.737Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:01.737Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2 [none]
+[debug] [2025-12-01T05:57:01.737Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2 [stream]
+[debug] [2025-12-01T05:57:01.738Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1 [none]
+[debug] [2025-12-01T05:57:01.738Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1 [stream]
+[debug] [2025-12-01T05:57:01.740Z] [hosting][populate queue][FINAL] {"max":791,"min":791,"avg":791,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":794}
+[debug] [2025-12-01T05:57:01.740Z] [hosting] uploads queued: 2
+[debug] [2025-12-01T05:57:05.603Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1 200
+[debug] [2025-12-01T05:57:05.604Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/8989981453b6f79965327fe4d2e8d72529652e31bf26a8fab15bb708230418c1 [stream]
+[debug] [2025-12-01T05:57:07.579Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2 200
+[debug] [2025-12-01T05:57:07.579Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/jadopotf-969bf/versions/491aec001b4072c5/files/119ef4d1c98e7a99c49a4cc863a36229ea65a4ef1b3f3ad91802520e96e31da2 [stream]
+[debug] [2025-12-01T05:57:07.579Z] [hosting][upload queue][FINAL] {"max":5842,"min":3867,"avg":4854.5,"active":0,"complete":2,"success":2,"errored":0,"retried":0,"total":2,"elapsed":5842}
+[info] +  hosting[jadopotf-969bf]: file upload complete 
+[debug] [2025-12-01T05:57:07.580Z] [hosting] deploy completed after 6725ms
+[debug] [2025-12-01T05:57:07.580Z] [
+  {
+    "config": {
+      "public": "dist",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "jadopotf-969bf"
+    },
+    "version": "projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5"
+  }
+]
+[info] i  hosting[jadopotf-969bf]: finalizing version... 
+[debug] [2025-12-01T05:57:07.582Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:07.582Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:07.582Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions/491aec001b4072c5 updateMask=status%2Cconfig
+[debug] [2025-12-01T05:57:07.582Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions/491aec001b4072c5 {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2025-12-01T05:57:09.503Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions/491aec001b4072c5 200
+[debug] [2025-12-01T05:57:09.503Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/versions/491aec001b4072c5 {"name":"projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-11-30T19:56:47.672118Z","createUser":{"email":"dushimiyimanajde@gmail.com"},"finalizeTime":"2025-11-30T19:56:56.405270Z","finalizeUser":{"email":"dushimiyimanajde@gmail.com"}}
+[debug] [2025-12-01T05:57:09.504Z] [hosting] finalized version for jadopotf-969bf:[object Object]
+[info] +  hosting[jadopotf-969bf]: version finalized 
+[info] i  hosting[jadopotf-969bf]: releasing new version... 
+[debug] [2025-12-01T05:57:09.505Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:09.505Z] Checked if tokens are valid: true, expires at: 1764571163707
+[debug] [2025-12-01T05:57:09.505Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/channels/live/releases versionName=projects%2F379734880562%2Fsites%2Fjadopotf-969bf%2Fversions%2F491aec001b4072c5
+[debug] [2025-12-01T05:57:09.505Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/channels/live/releases {}
+[debug] [2025-12-01T05:57:10.112Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/channels/live/releases 200
+[debug] [2025-12-01T05:57:10.112Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/-/sites/jadopotf-969bf/channels/live/releases {"name":"projects/379734880562/sites/jadopotf-969bf/channels/live/releases/1764532616537000","version":{"name":"projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-11-30T19:56:47.672118Z","createUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"},"finalizeTime":"2025-11-30T19:56:56.405270Z","finalizeUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"}},"type":"DEPLOY","releaseTime":"2025-11-30T19:56:56.537Z","releaseUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"}}
+[debug] [2025-12-01T05:57:10.113Z] [hosting] release: {"name":"projects/379734880562/sites/jadopotf-969bf/channels/live/releases/1764532616537000","version":{"name":"projects/379734880562/sites/jadopotf-969bf/versions/491aec001b4072c5","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2025-11-30T19:56:47.672118Z","createUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"},"finalizeTime":"2025-11-30T19:56:56.405270Z","finalizeUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"}},"type":"DEPLOY","releaseTime":"2025-11-30T19:56:56.537Z","releaseUser":{"email":"dushimiyimanajde@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a/ACg8ocJC2drMhJBt_8zqybZ-IP1w0nb3XZURTOnGMhrHoq4FZ7megMU=mo"}}
+[info] +  hosting[jadopotf-969bf]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/jadopotf-969bf/overview
+[info] Hosting URL: https://jadopotf-969bf.web.app
+[debug] [2025-12-01T05:57:15.432Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:275:49)
+    at listOnTimeout (node:internal/timers:605:17)
+    at process.processTimers (node:internal/timers:541:7)
+[error] 
+[error] Error: An unexpected error has occurred.

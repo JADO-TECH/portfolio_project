@@ -13,29 +13,33 @@ export default function PortfolioBlog() {
     navigate(path);}
 
   const blogs = [
-    {
+     {
+      image:b4,
+      title: "Finance Tracker Project",
+      link:"https://finance-ad5af.web.app/",
+      date: "2025-03-05",
+      description:
+        "Using TypeScript made my code safer, cleaner, and easier to scale.",
+      path:'Single2'
+    },
+  
+   {
       image:b2,
-      title: "My Journey Into Web Development",
+      title: "Elearning Platform",
+      link:"https://ffr-e-learning.web.app/",
       date: "2025-01-01",
       description:
         "How I started learning web development, the challenges I faced, and how I kept improving.",
         path:'Single'
     },
-    {
+      {
       image:b3,
       title: "Building My First React Project",
+      link:"https://finance-ad5af.web.app/",
       date: "2025-02-12",
       description:
         "A deep dive into how I built my first complete React project and what I learned.",
         path:'Single1'
-    },
-    {
-      image:b4,
-      title: "Why I Love TypeScript",
-      date: "2025-03-05",
-      description:
-        "Using TypeScript made my code safer, cleaner, and easier to scale.",
-        path:'Single2'
     },
   ];
 
@@ -49,7 +53,7 @@ export default function PortfolioBlog() {
             className="bg-card border border-border shadow-lg rounded-2xl p-6 hover:shadow-xl transition"
           >
           <div><img src={blog.image} className="h-[10rem] w-[20rem]  pb-[1rem]"/></div>
-            <h2 className="text-xl font-semibold mb-2">{blog.title}</h2>
+           <Link to={blog.link}> <h2 className="text-xl font-semibold mb-2">{blog.title}</h2></Link>
             <p className="text-sm text-gray-500 mb-3">{blog.date}</p>
             <p className="">{blog.description}</p>
             <button 
